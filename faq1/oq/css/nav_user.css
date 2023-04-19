@@ -1,0 +1,21 @@
+.navbar-header{
+    background-color: #099fae !important;
+}
+.navbar{
+    background-color: #099fae !important;
+    color: blueviolet;
+}
+
+.sidebar{
+	background-color: #099fae;
+	color: #000;
+}
+.sidebar-item{
+	color: #000;
+}
+a:visited {
+  background-color: #fff !important;
+}
+a:hover{
+	background-color: #fff !important;
+}

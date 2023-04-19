@@ -1,0 +1,118 @@
+.alert{
+    background-color: #fff !important;
+    border-style: solid !important;
+      border-color: #099fae !important;
+      border-radius: 5px;
+      margin-left:auto;
+margin-right:auto;
+}
+.container-fluid{
+margin-top:40px
+}
+.card{
+margin-left:auto;
+margin-right:auto;
+}
+
+/* #new_quiz{
+    background-color: #fcad74 !important;
+    color: #fff;
+}
+#new_question{
+    background-color: #fcad74 !important;
+    color: #fff;
+} */
+.bt-sm{
+    background-color: #fcad74 !important;
+    color: #fff;
+}
+.btn2{
+  background-color: #099fae !important;
+  color: #fff;
+}
+#new_student{
+    background-color: #099fae !important;
+    color: #fff;
+}
+td{
+  border-collapse: collapse;
+}
+table {
+    border: 1px solid #fcad74;
+    border-collapse: collapse;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    table-layout: fixed;
+    font-size: 1em !important;
+  }
+  table th {
+    font-size: 1em !important;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+  }
+  /* tr:nth-child(even) {
+    background-color: #fcad74 !important;
+  
+  } */
+  @media screen and (max-width: 600px) {
+    table {
+      border: 0;
+    }
+  
+    table thead {
+      border: none;
+      clip: rect(0 0 0 0);
+      height: 1px;
+      margin: -1px;
+      visibility: hidden;
+    height: 0;
+    position: absolute;
+      overflow: hidden;
+      padding: 0;
+      width: 1px;
+    }
+    
+    table tr {
+      border-bottom: 1px solid #fcad74;
+      background-color: #fcad74;
+      display: block;
+      margin-bottom: .625em;
+    }
+    
+    table td {
+      border-bottom: 1px solid #fcad74;
+      display: block;
+      font-size: 1em;
+      text-align: right;
+    }
+    
+    table td::before {
+      /*
+      * aria-label has no advantage, it won't be read inside a table
+      content: attr(aria-label);
+      */
+      content: attr(data-label);
+      float: left;
+      font-weight: bold;
+      text-transform: uppercase;
+    }
+    
+    table td:last-child {
+      border-bottom: 0;
+    }
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  

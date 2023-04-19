@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@100;300;400&display=swap');
+body {
+  background-color: #f2fbfc !important; 
+  font-family: 'Prompt', sans-serif !important;
+}
+  .sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #099fae ;
+    overflow-x: hidden;
+    transition: 0.2s;
+    padding-top: 60px;
+  }
+  .sidebar  a {
+    padding: 10px;
+    font-size: 1.1em;
+    display: block;
+}
+
+.sidebar .active>a,
+a[aria-expanded="true"] {
+    color: #fff;
+    background: #fff;
+}
+  .sidebar a {
+    /* padding: 8px 8px 8px 32px; */
+    text-decoration: none;
+    font-size: 15px;
+    color: #818181;
+    display: block;
+    /* transition: 0.3s; */
+  }
+  .navbar-text{
+    color:#fff !important;
+    font-size: 1.5em !important;
+    
+  }
+  .sidebar a:hover {
+    color: #f1f1f1;
+  }
+  
+  .sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 10px;
+    font-size: 30px;
+    color: white;
+    margin-left: 80px;
+  }
+  
+  .openbtn {
+    font-size: 25px;
+    cursor: pointer;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    
+  }
+  
+  .openbtn:hover {
+    color: #fff;
+    text-decoration: none;
+  }
+  .sidebar-header{
+    color: #fcad74;
+    padding: 10px;
+    /* background-color: #fafafa; */
+  }
+#main {
+    transition: margin-left .5s;
+    padding: 10px;
+    background-color: #099fae !important;
+    border-radius: 10px;
+    height: 90px;
+    box-shadow: 5px 5px 20px grey;
+  }
+  
+  /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+  @media screen and (max-width:  450px) {
+    .sidebar {padding-top: 50px;}
+    .sidebar a {font-size: 18px;}
+    #main {font-size: 18px;}
+  }
